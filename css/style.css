@@ -1,0 +1,81 @@
+/* style: man */
+  body#manpage {margin-left: auto}
+  .mp {max-width:100ex;padding:0 9ex 1ex 4ex}
+  .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 20px 0}
+  .mp h2 {margin:10px 0 0 0}
+  .mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:8ex}
+  .mp h3 {margin:0 0 0 4ex}
+  .mp dt {margin:0;clear:left}
+  .mp dt.flush {float:left;width:8ex}
+  .mp dd {margin:0 0 0 9ex}
+  .mp h1,.mp h2,.mp h3,.mp h4 {clear:left}
+  .mp pre {margin-bottom:20px}
+  .mp pre+h2,.mp pre+h3 {margin-top:22px}
+  .mp h2+pre,.mp h3+pre {margin-top:5px}
+  .mp img {margin:auto}
+  .mp h1.man-title {display:none}
+  .mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:cursive;font-size:14px;line-height:1.42857142857143}
+  .mp h2 {font-size:16px;line-height:1.25}
+  .mp h1 {font-size:20px;line-height:2}
+  .mp {text-align:justify;background:#fff}
+  .mp,.mp code,.mp pre,.mp pre code,.mp tt,.mp kbd,.mp samp {color:#141110}
+  .mp h1,.mp h2,.mp h3,.mp h4 {color:#040301}
+  .mp u {text-decoration:underline}
+  .mp code,.mp strong,.mp b {font-weight:bold;color:#141110}
+  .mp em,.mp var {font-style:italic;color:#232220;text-decoration:none}
+  .mp a,.mp a:link,.mp a:hover,.mp a code,.mp a pre,.mp a tt,.mp a kbd,.mp a samp {color:#0000ff}
+  .mp b.man-ref {font-weight:normal;color:#444340}
+  .mp pre {padding:0 4ex}
+  .mp pre code {font-weight:normal;color:#444340}
+  .mp h2+pre,h3+pre {padding-left:0}
+  ol.man-decor,ol.man-decor li {margin:3px 0 10px 0;padding:0;float:left;width:33%;list-style-type:none;text-transform:uppercase;color:rgb(153, 153, 153);letter-spacing:1px}
+  ol.man-decor {width:100%}
+  ol.man-decor li.tl {text-align:left}
+  ol.man-decor li.tc {text-align:center;letter-spacing:4px}
+  ol.man-decor li.tr {text-align:right;float:right}
+
+.ret-button {display:none; background-color: rgb(153, 153, 153); border: none; color: rgb(0,0,0); padding: 15px 32px; text-align: center;font-family:cursive;font-size:14px;line-height:1.42857142857143;}
+.ret-button a {display:block;margin:0;padding:0;color:rgb(0, 0, 0);text-decoration:none}
+
+/* style: toc */
+.man-navigation {display:block !important;position:fixed;top:0;left:75%;width:25%;overflow:auto;padding:0;border-left:1px solid #dbdbdb; background: rgb(153, 153, 153);
+  font-family:cursive;font-size:14px;line-height:1.42857142857143}
+.man-navigation a,.man-navigation a:hover,.man-navigation a:link,.man-navigation a:visited {display:block;margin:0;padding:5px 20px 5px 30px;color:rgb(0, 0, 0);text-decoration:none}
+.man-navigation a:hover {color:#111;background: #666}
+@media screen and (max-width: 900px) {/*wrong condition*/
+  .man-navigation {display:none;width: 100%;left:0;margin: 0;height: auto;position: relative;}
+  .man-navigation:active {display:block;}
+  .man-navigation a {text-align:center; float: none; padding: 15px;margin: 0;}
+  .ret-button {display:inline-block;position: fixed;bottom: 60px;right: 0;}
+}
+
+
+
+img.logo {
+	width: 14px;
+}
+
+img.midlogo {width: 120px}
+
+span.code a, span.code a:hover {font-family:monospace;font-size:14px;line-height:1.42857142857143;font-weight:bold;color:#131211;text-decoration: none}
+
+.lambdaexpr {color: #666;}
+.lambdaexpr       .lambdaf::before {content: "(";}
+.lambdaexpr       .lambdaf::after {content: ")";}
+.lambdaexpr:hover .lambdaf::before {content: "";}
+.lambdaexpr:hover .lambdaf::after {content: "";}
+
+.lambdaexpr:hover .vars {display: none;}
+.lambdaexpr:hover .varx        {visibility: hidden;}
+.lambdaexpr:hover .varx::after {content: "l.weissbart";visibility: visible;}
+.lambdaexpr:hover .vary        {visibility: hidden;}
+.lambdaexpr:hover .vary::after {content: "cs.ru";visibility: visible;}
+.lambdaexpr:hover .term {visibility: hidden;}
+
+
+img.scrot {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  margin-left: 0px;
+}

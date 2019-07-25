@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Léo Weissbart</title>
+		<!--<link rel="shortcut icon" href="images/manpage.ico" type="image/x-icon">-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body id='manpage'>
+	  <div class='mp' id='man'>
+<div class='man-navigation' style='display:none'>
+<a href="#NAME">NAME</a>
+<a href="#SYNOPSIS">SYNOPSIS</a>
+<a href="#DESCRIPTION">DESCRIPTION</a>
+<a href="#OPTIONS">OPTIONS</a>
+<a href="#RESEARCH">RESEARCH TOPICS</a>
+<a href="#PUBLICATIONS">PUBLICATIONS</a>
+<a href="#SEE-ALSO">SEE ALSO</a>
+<a href="#COPYRIGHT">COPYRIGHT</a>
+</div>
+<ol class='man-decor man-head man head'>
+	<li class='tl'></li>
+	<li class='tc'></li>
+	<li class='tr'>Leo Weissbart</li>
+</ol>
+<H2 id="NAME">NAME</H2>
+<p class="man-name">
+	<code>Léo Weissbart</code> - <span class="man-whatis">PhD Student at TU Delft and Radboud University</span>
+</p>
+
+<H2 id="SYNOPSIS">SYNOPSIS</H2>
+<p><code>Léo Weissbart</code> [--cv] [--gh] [--mail] [-l]</p>
+
+<H2 id="DESCRIPTION">DESCRIPTION</H2>
+<p>
+<code>Léo Weissbart</code> is a PhD student at <a href="https://www.tudelft.nl/en/eemcs/the-faculty/departments/intelligent-systems/">EEMCS INSY</a> of TU Delft and the <a href="http://www.ru.nl/ds/" >Digital Security group</a> of the Radboud University,
+working in <i>the area of physical attacks and machine learning</i> under the
+supervision of <a href="https://www.tudelft.nl/en/eemcs/current/humans-of-eemcs/stjepan-picek/" >Stepjan Picek</a> and <a href="http://www.cs.ru.nl/~lejla/" >Lejla Batina</a>. 
+Before that, he was an engineering student at the
+<a href="http://esisar.grenoble-inp.fr" >Grenoble INP-Esisar</a> (National Institute of advanced systems and networks, France).
+</p>
+
+<H2 id="OPTIONS">OPTIONS</H2>
+<dl>
+<dt class="flush"><code>--cv</code></dt><dd><p> <a href="files/Weissbart_Léo_curriculum_vitae.pdf" >Curriculum Vitae</a></p></dd>
+
+<dt class="flush"><code>--gh</code></dt><dd><p> <img src="files/mark-github-256.png" alt="logo" class="logo" /><a href="https://github.com/leoweissbart" >GitHub</a> repository.</p></dd>
+
+<dt class="flush"><code>--mail</code></dt><dd><p>
+		<span class="lambdaexpr">
+			<span class="lambdaf"><span class="vars">&lambda; x y. </span>
+			<span class="varx">x</span> &#64; <span class="vary">y</span>.nl</span>
+			<span class="term">leo weissbart</span>
+		</span>
+		<br></p></dd>
+	
+<dt><code>-l</code> | <code>--location</code></dt><dd><p> Mercator 1, 03.11 <br>Toernooiveld 212<br>6525 EC Nijmegen<br>The Netherlands</p></dd>
+</dl>
+
+<H2 id="RESEARCH">RESEARCH TOPICS</H2>
+<p>
+Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Attacks and Countermeasures
+</p>
+
+<H2 id="PUBLICATIONS">PUBLICATIONS</H2>
+<dl><dt ><code>PUB-2018 -</code> <a href="https://doi.org/10.23919/ISITA.2018.8664293" >Side-Channel Attack using Order 4 Element against Curve25519 on ATMega328P</a> [<a href="files/Side-Channel Attack using Order 4 Element against Curve25519 on ATMega328P.pdf">PDF</a>]
+</dt><dd>
+<p>Yoshinori Uetake, Akihiro Sanada, Takuya Kusaka, Yasuyuki Nogami, Léo Weissbart and Sylvain Duquesne</p>
+<p><i>The International Symposium on Information Theory and Its Applications - ISITA 2018</i><br>
+<span style="color:#999;"> With the matter of secure communication between devices, and especially for IoT devices, more and more applications need 
+	trustful protocols to communicate using public key cryptography. Elliptic curve cryptography is nowadays a very secure and efficient public key 
+	cryptography method. One of the most recent and secure curve is Curve25519 and one of its failure is attack on low-order elements during a 
+	Diffie-Hellman key exchange. This document demonstrates that an attack using an order 4 point is possible on an embedded system with a simple 
+	power analysis, pointing out every IoT using Curve255119 as a cryptographic method, a potential target to side-channel attacks. </span><br /></p></dd></dl>
+
+<dl><dt ><code>PUB-2019-358 -</code> <a href="https://eprint.iacr.org/2019/358" >One trace is all it takes: Machine Learning-based Side-channel Attack on EdDSA</a> [<a href="files/2019-358.pdf">PDF</a>]
+</dt><dd>
+<p>Léo Weissbart, Stjepan Picek and Lejla Batina</p>
+<span style="color:#999;"> Profiling attacks, especially those based on machine learning proved as very successful techniques in recent years when 
+	considering side-channel analysis of block ciphers implementations. At the same time, the results for implementations public-key cryptosystems 
+	are very sparse. In this paper, we consider several machine learning techniques in order to mount a power analysis attack on EdDSA using the curve 
+	Curve25519 as implemented in WolfSSL. The results show all considered techniques to be viable and powerful options. The results with convolutional 
+	neural networks (CNNs) are especially impressive as we are able to break the implementation with only a single measurement in the attack phase while 
+	requiring less than 500 measurements in the training phase. Interestingly, that same convolutional neural network was recently shown to perform 
+	extremely well for attacking the AES cipher. Our results show that some common grounds can be established when using deep learning for profiling 
+	attacks on distinct cryptographic algorithms and their corresponding implementations.  </span><br /></p></dd></dl>
+
+<H2 id="SEE-ALSO">SEE ALSO</H2>
+<dl><dt ><code>2019 - June.  Summer School on real-world crypto and privacy - Šibenik</code><dd><p><span style="color:#999;"><a href="https://summerschool-croatia.cs.ru.nl/2019/">Summer school</a> jointly organized by the Digital Security
+	 (DiS) group, Radboud University (The Netherlands), ETH Zurich Information Security and Privacy Center (Switzerland) and Faculty of Electrical Engineering
+	  and Computing, University of Zagreb (Croatia). </span></p></dd></dt></dl>
+
+
+
+    			<ol class='man-decor man-foot man foot'>
+    				<li class='tl'></li>
+    				<li class='tc'> Jul 2019</li>
+    				<li class='tr'>Léo Weissbart</li>
+    			</ol>
+    		</div>
+    	</body>
+    </html>
