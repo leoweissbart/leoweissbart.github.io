@@ -34,14 +34,16 @@
   ol.man-decor li.tc {text-align:center;letter-spacing:4px}
   ol.man-decor li.tr {text-align:right;float:right}
 
-.ret-button {display:none; background-color: rgb(153, 153, 153); border: none; color: rgb(0,0,0); padding: 15px 32px; text-align: center;font-family:monospace;font-size:14px;line-height:1.42857142857143;}
-.ret-button a {display:block;margin:0;padding:0;color:rgb(0, 0, 0);text-decoration:none}
+.ret-button {display:none; background-color: rgb(153, 153, 153); border: none;margin: 0,0,0,0; color: rgb(0,0,0); text-align: center;font-family:monospace;font-size:14px}
+.ret-button a,.ret-button a:hover,.ret-button a:link,.ret-button a:visited {display:block;padding: 15px 32px;color:rgb(0, 0, 0);text-decoration:none;position: fixed;bottom: 50px;right: 0;margin: 0,0,0,0}
+.ret-button a {color:#111;background: rgb(153, 153, 153)}
+.ret-button a:hover {background:#111;color:rgb(153, 153, 153)}
 
 /* style: toc */
 .man-navigation {display:block !important;position:fixed;top:0;left:auto;right:0;width:25%;overflow:auto;padding:0;border-left:1px solid #dbdbdb; background: rgb(153, 153, 153);
   font-family:monospace;font-size:14px;line-height:1.42857142857143}
 .man-navigation a,.man-navigation a:hover,.man-navigation a:link,.man-navigation a:visited {display:block;margin:0;padding:5px 20px 5px 30px;color:rgb(0, 0, 0);text-decoration:none}
-.man-navigation a:hover {color:#111;background: #666}
+.man-navigation a:hover {background:#111;color: rgb(153, 153, 153)}
 
 /*Adapt navbar for screen size*/
 @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 900px) {
@@ -49,7 +51,7 @@
   .man-navigation:active {display:block;}
   .man-navigation a {text-align:center; float: none; padding: 15px;margin: 0;}
   .mp {max-width:90%;padding:0 9ex 1ex 4ex}
-  .ret-button {display:inline-block;position: fixed;bottom: 50px;right: 0}
+  .ret-button {display:block}
 }
 
 /*for small screens*/
