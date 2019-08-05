@@ -42,6 +42,8 @@
   font-family:monospace;font-size:14px;line-height:1.42857142857143}
 .man-navigation a,.man-navigation a:hover,.man-navigation a:link,.man-navigation a:visited {display:block;margin:0;padding:5px 20px 5px 30px;color:rgb(0, 0, 0);text-decoration:none}
 .man-navigation a:hover {color:#111;background: #666}
+
+/*Adapt navbar for screen size*/
 @media screen and (max-width: 900px) {
   .man-navigation {display:none;width: 100%;top:0;left:0;right:0;margin:0;height: auto;position: relative;}
   .man-navigation:active {display:block;}
@@ -49,12 +51,11 @@
   .mp {max-width:90%;padding:0 9ex 1ex 4ex}
   .ret-button {display:inline-block;position: fixed;bottom: 50px;right: 0}
 }
-@media all and (max-width: 1200px) and (min-width: 800px) {
-  .mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-size:7px}
-  .mp h2 {font-size:8px;line-height:1.25}
-  .mp h1 {font-size:10px;line-height:2}
-}
 
+/*for small screens*/
+@media screen and (max-width: 400px) {
+  .mp {font-size: 10px}
+}
 
 img.logo {
 	width: 14px;
