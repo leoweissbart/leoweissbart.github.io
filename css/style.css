@@ -14,7 +14,7 @@
   .mp h2+pre,.mp h3+pre {margin-top:5px}
   .mp img {margin:auto}
   .mp h1.man-title {display:none}
-  .mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:cursive;font-size:14px;line-height:1.42857142857143}
+  .mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:monospace;font-size:14px;line-height:1.42857142857143}
   .mp h2 {font-size:16px;line-height:1.25}
   .mp h1 {font-size:20px;line-height:2}
   .mp {text-align:justify;background:#fff}
@@ -34,12 +34,12 @@
   ol.man-decor li.tc {text-align:center;letter-spacing:4px}
   ol.man-decor li.tr {text-align:right;float:right}
 
-.ret-button {display:none; background-color: rgb(153, 153, 153); border: none; color: rgb(0,0,0); padding: 15px 32px; text-align: center;font-family:cursive;font-size:14px;line-height:1.42857142857143;}
+.ret-button {display:none; background-color: rgb(153, 153, 153); border: none; color: rgb(0,0,0); padding: 15px 32px; text-align: center;font-family:monospace;font-size:14px;line-height:1.42857142857143;}
 .ret-button a {display:block;margin:0;padding:0;color:rgb(0, 0, 0);text-decoration:none}
 
 /* style: toc */
 .man-navigation {display:block !important;position:fixed;top:0;left:auto;right:0;width:25%;overflow:auto;padding:0;border-left:1px solid #dbdbdb; background: rgb(153, 153, 153);
-  font-family:cursive;font-size:14px;line-height:1.42857142857143}
+  font-family:monospace;font-size:14px;line-height:1.42857142857143}
 .man-navigation a,.man-navigation a:hover,.man-navigation a:link,.man-navigation a:visited {display:block;margin:0;padding:5px 20px 5px 30px;color:rgb(0, 0, 0);text-decoration:none}
 .man-navigation a:hover {color:#111;background: #666}
 @media screen and (max-width: 900px) {
