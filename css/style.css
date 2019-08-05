@@ -44,7 +44,7 @@
 .man-navigation a:hover {color:#111;background: #666}
 
 /*Adapt navbar for screen size*/
-@media screen and (max-width: 900px) {
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 900px) {
   .man-navigation {display:none;width: 100%;top:0;left:0;right:0;margin:0;height: auto;position: relative;}
   .man-navigation:active {display:block;}
   .man-navigation a {text-align:center; float: none; padding: 15px;margin: 0;}
@@ -53,7 +53,7 @@
 }
 
 /*for small screens*/
-@media screen and (max-width: 400px) {
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 400px) {
   .mp {font-size: 10px}
 }
 
