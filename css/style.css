@@ -1,5 +1,5 @@
 /* style: man */
-  body#manpage {margin-left: 0;margin-top: 0;margin-right: 0}
+  body#manpage {margin-left: 0;margin-top: 0;margin-right: 0;-webkit-text-size-adjust: none}
   .mp {max-width:70%;padding:0 9ex 1ex 4ex}
   .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 20px 0}
   .mp h2 {margin:10px 0 0 0}
