@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lweissbart
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://leoweissbart.github.io
+  * I am lweissbart (https://keybase.io/lweissbart) on keybase.
+  * I have a public key ASC7iXTpQBfcUCNT5Lu9yLfszPsvVD3B_ASoD_-VztabWAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120df9589097f5a435ce5a747bc9e2891694d09b118d3e60d64014b9b476cde10990a",
+      "host": "keybase.io",
+      "kid": "0120bb8974e94017dc502353e4bbbdc8b7ecccfb2f543dc1fc04a80fff95ced69b580a",
+      "uid": "a34055001bd20c6bed3fc5fbc6f50119",
+      "username": "lweissbart"
+    },
+    "merkle_root": {
+      "ctime": 1584351607,
+      "hash": "99cbacb19a07f520b23beacc0a41343cbab6436c16d98afd7493d75bd0ac6b25572406e2bc9665bc67dd6b22f961f633aa7cc1bd38f2b8b9db8b9ab758d431de",
+      "hash_meta": "49d8aa3f8eb4bbe6bc8c1d42a3f073cb6b45a5f631a4d9720af6ccc124e64a04",
+      "seqno": 15390139
+    },
+    "service": {
+      "entropy": "E+3zPbnXD0kslsiOzdM1w3bu",
+      "hostname": "leoweissbart.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1584351716,
+  "expire_in": 504576000,
+  "prev": "583a4d960ab08f22303e0254ebec4c1d3f472caf9c3829f2cb33e64c3a814dcf",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu4l06UAX3FAjU+S7vci37Mz7L1Q9wfwEqA//lc7Wm1gKp3BheWxvYWTESpcCCMQgWDpNlgqwjyIwPgJU6+xMHT9HLK+cOCnyyzPmTDqBTc/EIDUYcLko5PCnz4+TQURV0ciUciB0SfEPzKqJgfwe05q3AgHCo3NpZ8RA/8q7+3IVwmwUaek434hIELvGPeKzL5lQNuFkdERhe727A/xxkDEf7Db5dZggcPJHNBbiYC/tEJwDLJsMDfjBBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKPRSSQwlzeC/zQHpkhzAH2Gb8QG6aX3MXZj39LZwghco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lweissbart
+
+==================================================================
