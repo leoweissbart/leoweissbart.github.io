@@ -72,6 +72,34 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </p>
 
 <H2 id="PUBLICATIONS">PUBLICATIONS</H2>
+<dl><dt ><code>PUB-2020-09877 -</code> <a href="https://arxiv.org/pdf/2011.09877" >Screen Gleaning: A Screen Reading TEMPEST Attack on Mobile Devices Exploiting an Electromagnetic Side Channel</a> [<a href="files/2011.09877.pdf">PDF</a>]
+</dt><dd>
+<p>Zhuoran Liu, Niels Samwel, Léo Weissbart, Zhengyu Zhao, Dirk Lauret, Lejla Batina and Martha Larson</p>
+<span style="color:#999;">    We introduce screen gleaning, a TEMPEST attack in which the screen of a mobile device is read without a visual line of sight, 
+	revealing sensitive information displayed on the phone screen. The screen gleaning attack uses an antenna and a software-defined radio (SDR) to pick up 
+	the electromagnetic signal that the device sends to the screen to display, e.g., a message with a security code. This special equipment makes it possible 
+	to recreate the signal as a gray-scale image, which we refer to as an emage. Here, we show that it can be used to read a security code. The screen gleaning 
+	attack is challenging because it is often impossible for a human viewer to interpret the emage directly. We show that this challenge can be addressed with 
+	machine learning, specifically, a deep learning classifier. Screen gleaning will become increasingly serious as SDRs and deep learning continue to rapidly 
+	advance. In this paper, we demonstrate the security code attack and we propose a testbed that provides a standard setup in which screen gleaning could be 
+	tested with different attacker models. Finally, we analyze the dimensions of screen gleaning attacker models and discuss possible countermeasures with the 
+	potential to address them. 
+</span><br /></p></dd></dl>
+
+<dl><dt ><code>JOU-2020-314-328 -</code> <a href="https://rdcu.be/cdBWr" >Systematic Side-Channel Analysis of Curve25519 with Machine Learning</a> [<a href="files/2020-314-328.pdf">PDF</a>]
+</dt><dd>
+<p>Léo Weissbart, Łukasz Chmielewski, Stjepan Picek and Lejla Batina </p>
+<span style="color:#999;">Profiling attacks, especially those based on machine learning, proved to be very successful techniques in recent years when considering
+	the side-channel analysis of symmetric-key crypto implementations. At the same time, the results for implementations of asymmetric-key cryptosystems are very
+	sparse. This paper considers several machine learning techniques to mount side-channel attacks on two implementations of scalar multiplication on the elliptic
+	curve Curve25519. The first implementation follows the baseline implementation with complete formulae as used for EdDSA in WolfSSl, where we exploit power 
+	consumption as a side-channel. The second implementation features several countermeasures, and in this case, we analyze electromagnetic emanations to find 
+	side-channel leakage. Most techniques considered in this work result in potent attacks, and especially the method of choice appears to be convolutional 
+	neural networks (CNNs), which can break the first implementation with only a single measurement in the attack phase. The same convolutional neural network 
+	demonstrated excellent performance for attacking AES cipher implementations. Our results show that some common grounds can be established when using deep 
+	learning for profiling attacks on very different cryptographic algorithms and their corresponding implementations.
+</span><br /></p></dd></dl>
+
 <dl><dt ><code>PUB-2019-1476 -</code> <a href="https://eprint.iacr.org/2019/1476" >On the Performance of Multilayer Perceptron in Profiling Side-channel Analysis</a> [<a href="files/2019-1476.pdf">PDF</a>]
 </dt><dd>
 <p>Léo Weissbart, Stjepan Picek and Lejla Batina</p>
@@ -130,7 +158,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 
     			<ol class='man-decor man-foot man foot'>
     				<li class='tl'></li>
-    				<li class='tc'> Feb 2020</li>
+    				<li class='tc'> Jan 2021</li>
     				<li class='tr'>Léo Weissbart</li>
     			</ol>
     		</div>
