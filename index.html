@@ -38,7 +38,7 @@
 </p>
 
 <H2 id="SYNOPSIS">SYNOPSIS</H2>
-<p><code>Léo Weissbart</code> [--cv] [--gh] [--mail] [-l]</p>
+<p><code>Léo Weissbart</code> [--cv] [--gh] [--sc] [--dblp] [--mail] [-l]</p>
 
 <H2 id="DESCRIPTION">DESCRIPTION</H2>
 <p>
@@ -53,7 +53,11 @@ Before that, he was an engineering student at the
 <dl>
 <dt class="flush"><code>--cv</code></dt><dd><p> <a href="files/Weissbart_Leo_curriculum_vitae.pdf" >Curriculum Vitae</a></p></dd>
 
-<dt class="flush"><code>--gh</code></dt><dd><p> <img src="files/mark-github-256.png" alt="logo" class="logo" /><a href="https://github.com/leoweissbart" >GitHub</a> repository.</p></dd>
+<dt class="flush"><code>--gh</code></dt><dd><p> <img src="files/mark-github-256.png" alt="logo" class="logo" /><a href="https://github.com/leoweissbart" >GitHub</a> repository</p></dd>
+
+<dt class="flush"><code>--sc</code></dt><dd><p> <img src="files/scholar.png" alt="logo" class="logo" /><a href="https://scholar.google.nl/citations?user=k-n1lSQAAAAJ&hl=nl&oi=ao" >Google Scholar</a></p></dd>
+
+<dt class="flush"><code>--dblp</code></dt><dd><p> <img src="files/dblp.png" alt="logo" class="logo" /><a href="https://dblp.uni-trier.de/pid/237/8337.html" >DBLP</a> Computer Science Bibliography</p></dd>
 
 <dt class="flush"><code>--mail</code></dt><dd><p>
 		<span class="lambdaexpr">
@@ -72,6 +76,21 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </p>
 
 <H2 id="PUBLICATIONS">PUBLICATIONS</H2>
+<dl><dt ><code>PUB-2023-1598 -</code> <a href="https://eprint.iacr.org/2023/1598" >Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller</a> [<a href="files/2023-1598.pdf">PDF</a>]
+</dt><dd>
+<p>Léo Weissbart and Stjepan Picek</p>
+<p><i>Cryptology ePrint Archive</i><br>
+<span style="color:#999;"> Ascon is a recently standardized suite of symmetric cryptography for authenticated encryption and hashing algorithms designed to be lightweight.
+	The Ascon scheme has been studied since it was introduced in 2015 for the CAESAR competition, and many efforts have been made to transform this hardware-oriented scheme to work with any embedded device architecture.
+	Ascon is designed with side-channel resistance in mind and can also be protected with countermeasures against side-channel analysis.
+	Up to now, the effort of side-channel analysis is mainly put on hardware implementations, with only a few studies being published on the real-world side-channel security of software implementations.
+	In this paper, we give a comprehensive view of the side-channel security of Ascon implemented on a 32-bit microcontroller for both the reference and a protected implementation.
+	We show different potential leakage functions that can lead to real-world leakages and demonstrate the most potent attacks that can be obtained with the corresponding leakage functions.
+	We present our results using correlation power analysis (CPA) and deep learning-based side-channel analysis and provide a practical estimation of the efforts needed for an attacker to recover the complete key used for authenticated encryption.
+	Our results show that the reference implementation is not side-channel secure since an attacker can recover the full key with 8,000 traces using CPA and around 1,000 traces with deep learning analysis. 
+	While second-order CPA cannot recover any part of the secret, deep learning side-channel analysis can recover partial keys with 800 traces on the protected implementation.
+	Unfortunately, the model used for multi-task key recovery lacks the generalization to correctly recover all partial keys for the full key attack.</span><br /></p></dd></dl>
+
 <dl><dt ><code>JOU-2023-101-55470 -</code> <a href="https://doi.org/10.1109/TIFS.2023.3287728" >Label Correlation in Deep Learning-Based Side-Channel Analysis</a>
 </dt><dd>
 <p>Lichao Wu, Léo Weissbart, Marina Krcek, Huimin Li, Guilherme Perin, Lejla Batina, Stjepan Picek</p>
@@ -136,7 +155,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 
 <dl><dt ><code>PUB-2019-1476 -</code> <a href="https://eprint.iacr.org/2019/1476" >On the Performance of Multilayer Perceptron in Profiling Side-channel Analysis</a> [<a href="files/2019-1476.pdf">PDF</a>]
 </dt><dd>
-<p>Léo Weissbart, Stjepan Picek and Lejla Batina</p>
+<p>Léo Weissbart</p>
 <p><i>Artificial Intelligence in Hardware Security - AIHWS 2020</i><br>
 <span style="color:#999;">In profiling side-channel analysis, machine learning-based attacks nowadays offer the most powerful performance. 
 	This holds especially for techniques stemming from the neural network family: multilayer perceptron and convolutional neural networks. 
@@ -198,7 +217,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 
     			<ol class='man-decor man-foot man foot'>
     				<li class='tl'></li>
-    				<li class='tc'> Jul 2023</li>
+    				<li class='tc'> Nov 2023</li>
     				<li class='tr'>Léo Weissbart</li>
     			</ol>
     		</div>
