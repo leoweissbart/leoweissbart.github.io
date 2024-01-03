@@ -77,7 +77,9 @@ span.code a, span.code a:hover {font-family:monospace;font-size:14px;line-height
 .lambdaexpr:hover .varx        {visibility: hidden;}
 .lambdaexpr:hover .varx::after {content: "l.weissbart";visibility: visible;}
 .lambdaexpr:hover .vary        {visibility: hidden;}
-.lambdaexpr:hover .vary::after {content: "cs.ru";visibility: visible;}
+.lambdaexpr:hover .vary::after {content: "proton";visibility: visible;}
+.lambdaexpr:hover .varz        {visibility: hidden;}
+.lambdaexpr:hover .varz::after {content: ".me";visibility: visible;}
 .lambdaexpr:hover .term {visibility: hidden;}
 
 

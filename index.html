@@ -53,21 +53,21 @@ Before that, he was an engineering student at the
 <dl>
 <dt class="flush"><code>--cv</code></dt><dd><p> <a href="files/Weissbart_Leo_curriculum_vitae.pdf" >Curriculum Vitae</a></p></dd>
 
-<dt class="flush"><code>--gh</code></dt><dd><p> <img src="files/mark-github-256.png" alt="logo" class="logo" /><a href="https://github.com/leoweissbart" >GitHub</a> repository</p></dd>
+<dt class="flush"><code>--gh</code></dt><dd><p> <img src="files/mark-github-256.png" alt="logo" class="logo" /><a href="https://github.com/leoweissbart" >GitHub</a> repository / <img src="files/gitlab.png" alt="logo" class="logo" /><a href="https://gitlab.com/leo_w" >GitLab</a> repository</p></dd>
 
-<dt class="flush"><code>--sc</code></dt><dd><p> <img src="files/scholar.png" alt="logo" class="logo" /><a href="https://scholar.google.nl/citations?user=k-n1lSQAAAAJ&hl=nl&oi=ao" >Google Scholar</a></p></dd>
+<dt class="flush"><code>--sc</code></dt><dd><p> <img src="files/scholar.png" alt="logo" class="logo" /><a href="https://scholar.google.com/citations?user=k-n1lSQAAAAJ" >Google Scholar</a></p></dd>
 
 <dt class="flush"><code>--dblp</code></dt><dd><p> <img src="files/dblp.png" alt="logo" class="logo" /><a href="https://dblp.uni-trier.de/pid/237/8337.html" >DBLP</a> Computer Science Bibliography</p></dd>
 
 <dt class="flush"><code>--mail</code></dt><dd><p>
-		<span class="lambdaexpr">
-			<span class="lambdaf"><span class="vars">&lambda; x y. </span>
-			<span class="varx">x</span> &#64; <span class="vary">y</span>.nl</span>
-			<span class="term">leo weissbart</span>
-		</span>
-		<br></p></dd>
-	
-<dt><code>-l</code> | <code>--location</code></dt><dd><p> Mercator 1, 03.11 <br>Toernooiveld 212<br>6525 EC Nijmegen<br>The Netherlands</p></dd>
+	<span class="lambdaexpr">
+		<span class="lambdaf"><span class="vars"></span>
+		<span class="varx">hover</span> &#64; <span class="vary">me</span><span class="varz"></span></span>
+		<span class="term">leo weissbart</span>
+	</span>
+</p></dd>
+
+<!-- <dt><code>-l</code> | <code>--location</code></dt><dd><p> Mercator 1, 03.11 <br>Toernooiveld 212<br>6525 EC Nijmegen<br>The Netherlands</p></dd> -->
 </dl>
 
 <H2 id="RESEARCH">RESEARCH TOPICS</H2>
@@ -76,6 +76,21 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </p>
 
 <H2 id="PUBLICATIONS">PUBLICATIONS</H2>
+<dl><dt ><code>PUB-2312.07783 -</code> <a href="https://arxiv.org/abs/2312.07783" >BarraCUDA: Bringing Electromagnetic Side Channel Into Play to Steal the Weights of Neural Networks from NVIDIA GPUs</a>
+</dt><dd>
+<p>Péter Horváth, Łukasz Chmielewski, Léo Weissbart, Lejla Batina, Yuval Yarom</p>
+<p><i>Arxiv</i><br>
+	<span style="color:#999;"> Over the last decade, applications of neural networks have spread to cover all aspects of life. A large number of companies base their businesses on building products that use neural networks for tasks such as face recognition, machine translation, and autonomous cars. They are being used in safety and security-critical applications like high definition maps and medical wristbands, or in globally used products like Google Translate and ChatGPT. Much of the intellectual property underpinning these products is encoded in the exact configuration of the neural networks. Consequently, protecting these is of utmost priority to businesses. At the same time, many of these products need to operate under a strong threat model, in which the adversary has unfettered physical control of the product.
+	Past work has demonstrated that with physical access, attackers can reverse engineer neural networks that run on scalar microcontrollers, like ARM Cortex M3. However, for performance reasons, neural networks are often implemented on highly-parallel general purpose graphics processing units (GPGPUs), and so far, attacks on these have only recovered course-grained information on the structure of the neural network, but failed to retrieve the weights and biases.
+	In this work, we present BarraCUDA, a novel attack on GPGPUs that can completely extract the parameters of neural networks. BarraCUDA uses correlation electromagnetic analysis to recover the weights and biases in the convolutional layers of neural networks. We use BarraCUDA to attack the popular NVIDIA Jetson Nano device, demonstrating successful parameter extraction of neural networks in a highly parallel and noisy environment. </span><br /></p></dd></dl>
+
+<dl><dt ><code>PUB-2023-1922 -</code> <a href="https://eprint.iacr.org/2023/1922" >One for All, All for Ascon: Ensemble-based Deep Learning Side-channel Analysis</a>
+</dt><dd>
+<p>Azade Rezaeezade, Abraham Basurto-Becerra, Léo Weissbart, Guilherme Perin</p>
+<p><i>Cryptology ePrint Archive</i><br>
+	<span style="color:#999;"> In recent years, deep learning-based side-channel analysis (DLSCA) has become an active research topic within the side-channel analysis community. The well-known challenge of hyperparameter tuning in DLSCA encouraged the community to use methods that reduce the effort required to identify an optimal model. One of the successful methods is ensemble learning. While ensemble methods have demonstrated their effectiveness in DLSCA, particularly with AES-based datasets, their efficacy in analyzing symmetric-key cryptographic primitives with different operational mechanics remains unexplored.
+	Ascon was recently announced as the winner of the NIST lightweight cryptography competition. This will lead to broader use of Ascon and a crucial requirement for thorough side-channel analysis of its implementations. With these two considerations in view, we utilize an ensemble of deep neural networks to attack two implementations of Ascon. Using an ensemble of five multilayer perceptrons or convolutional neural networks, we could find the secret key for the Ascon-protected implementation with less than 3 000 traces. To the best of our knowledge, this is the best currently known result. We can also identify the correct key with less than 100 traces for the unprotected implementation of Ascon, which is on par with the state-of-the-art results. </span><br /></p></dd></dl>
+
 <dl><dt ><code>PUB-2023-1598 -</code> <a href="https://eprint.iacr.org/2023/1598" >Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller</a> [<a href="files/2023-1598.pdf">PDF</a>]
 </dt><dd>
 <p>Léo Weissbart and Stjepan Picek</p>
@@ -217,7 +232,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 
     			<ol class='man-decor man-foot man foot'>
     				<li class='tl'></li>
-    				<li class='tc'> Nov 2023</li>
+    				<li class='tc'> Jan 2024</li>
     				<li class='tr'>Léo Weissbart</li>
     			</ol>
     		</div>
