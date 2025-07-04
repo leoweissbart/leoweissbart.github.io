@@ -33,6 +33,7 @@
   ol.man-decor li.tl {text-align:left}
   ol.man-decor li.tc {text-align:center;letter-spacing:4px}
   ol.man-decor li.tr {text-align:right;float:right}
+  .item-description {color: #999}
 
 .ret-button {display:none; background-color: rgb(153, 153, 153); border: none;margin: 0,0,0,0; color: rgb(0,0,0); text-align: center;font-family:monospace;font-size:14px}
 .ret-button a,.ret-button a:hover,.ret-button a:link,.ret-button a:visited {display:block;padding: 15px 32px;color:rgb(0, 0, 0);text-decoration:none;position: fixed;bottom: 50px;right: 0;margin: 0,0,0,0}
@@ -88,4 +89,17 @@ img.scrot {
   float: left;
   margin: 10px;
   margin-left: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body,.mp, .man-navigation{background: #303446; color: #c6d0f5;}
+  .mp h1,.mp h2,.mp h3,.mp h4 {color:#b5bfe2}
+  .mp code {color:#b5bfe2}
+  ol.man-decor,ol.man-decor li {color:#c6d0f5}
+  .mp a,.mp a:link,.mp a:hover,.mp a code,.mp a pre,.mp a tt,.mp a kbd,.mp a samp {color:#8caaee}
+  .item-description {color:#737994}
+  .man-navigation { border-left: 1px solid #51576d;}
+  .man-navigation, .man-navigation a, .man-navigation a:link, .man-navigation a:visited{ background: #414559; color: #a5adce;}
+  .man-navigation a:hover { background: #a5adce; color: #414559;}
+  .lambdaexpr {color:#8caaee;}
 }
