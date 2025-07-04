@@ -77,26 +77,31 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </p>
 
 <H2 id="PUBLICATIONS">PUBLICATIONS</H2>
+<dl><dt ><code>PUB-2024-624 -</code> <a href="https://link.springer.com/chapter/10.1007/978-3-031-82841-6_12" >Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis</a>
+</dt><dd>
+<p>Trevor Yap, Shivam Bhasin, Léo Weissbart</p>
+<p><i>International Conference on Selected Areas in Cryptography - SAC 2024</i><br>
+            <span class="item-description"> Side-Channel Analysis (SCA) is critical in evaluating the security of cryptographic implementations. In recent years, the use of Deep Neural Networks (DNNs) in SCA has risen in popularity. However, DNNs consists of many hyperparameters and not every configuration of hyperparameters result in successful attack. Therefore, the search for DNN’s hyperparameters poses a significant challenge, especially when resources are limited. In this work, we explore the efficacy of a multifidelity optimization technique known as Bayesian Optimization HyperBand (BOHB) in SCA. This introduces the notion of budget within SCA to encapsulate the idea of resources when tuning the hyperparmeters of the DNNs. Next, we proposed a new objective function called ge_{+ntge}, which could be incorporated into any Bayesian Optimization used in SCA. We show the capabilities of both BOHB and ge_{+ntge} on four different public datasets. Specifically, BOHB could obtain the least number of traces in the dataset called CTF2018 when trained in the Hamming weight and identity leakage models. Notably, this marks the first reported successful recovery of the key for the identity leakage model in CTF2018.</span><br /></p></dd></dl>
 <dl><dt ><code>PUB-2024-624 -</code> <a href="https://link.springer.com/chapter/10.1007/978-3-031-61486-6_10" >CNN Architecture Extraction on Edge GPU</a>
 </dt><dd>
 <p>Péter Horváth, Lukasz Chmielewski, Leo Weissbart, Lejla Batina, Yuval Yarom</p>
 <p><i>Artificial Intelligence in Hardware Security - AIHWS 2024</i><br>
-	<span style="color:#999;"> In this paper, we conduct a detailed power side-channel analysis of Xoodyak, a lightweight cryptographic algorithm, on an FPGA platform. We focus on the initialization phase of Xoodyak in the authenticated encryption with associated data (AEAD) mode. First, we introduce a new leakage model and perform a leakage assessment. Then, we perform non-profiled and profiled attacks to determine if the observed leakages can be exploited. For a non-profiled attack, we perform a correlation power analysis on all key bits, achieving a success rate of 91.4% with 50 000 traces. Our approach for a profiled attack involves a template attack and a deep learning-based attack. The former achieves a success rate of 99.2%, recovering almost all key bits with 20 000 traces in the attack phase. The latter reaches a guessing entropy of zero after 550 traces and adapts to the leakage model within 50 epochs.</span><br /></p></dd></dl>
+	<span class="item-description"> In this paper, we conduct a detailed power side-channel analysis of Xoodyak, a lightweight cryptographic algorithm, on an FPGA platform. We focus on the initialization phase of Xoodyak in the authenticated encryption with associated data (AEAD) mode. First, we introduce a new leakage model and perform a leakage assessment. Then, we perform non-profiled and profiled attacks to determine if the observed leakages can be exploited. For a non-profiled attack, we perform a correlation power analysis on all key bits, achieving a success rate of 91.4% with 50 000 traces. Our approach for a profiled attack involves a template attack and a deep learning-based attack. The former achieves a success rate of 99.2%, recovering almost all key bits with 20 000 traces in the attack phase. The latter reaches a guessing entropy of zero after 550 traces and adapts to the leakage model within 50 epochs.</span><br /></p></dd></dl>
 <dl><dt ><code>PUB-2024-43 -</code> <a href="https://ieeexplore.ieee.org/abstract/document/10508930" >Xoodyak Under SCA Siege</a>
 </dt><dd>
 <p>Parisa Amiri Eliasi, Silvia Mella, Léo Weissbart, Lejla Batina, Stjepan Picek</p>
 <p><i>27th International Symposium on Design & Diagnostics of Electronic Circuits & Systems, DDECS 2024</i><br>
-	<span style="color:#999;"> In this paper, we conduct a detailed power side-channel analysis of Xoodyak, a lightweight cryptographic algorithm, on an FPGA platform. We focus on the initialization phase of Xoodyak in the authenticated encryption with associated data (AEAD) mode. First, we introduce a new leakage model and perform a leakage assessment. Then, we perform non-profiled and profiled attacks to determine if the observed leakages can be exploited. For a non-profiled attack, we perform a correlation power analysis on all key bits, achieving a success rate of 91.4% with 50 000 traces. Our approach for a profiled attack involves a template attack and a deep learning-based attack. The former achieves a success rate of 99.2%, recovering almost all key bits with 20 000 traces in the attack phase. The latter reaches a guessing entropy of zero after 550 traces and adapts to the leakage model within 50 epochs.</span><br /></p></dd></dl>
+	<span class="item-description"> In this paper, we conduct a detailed power side-channel analysis of Xoodyak, a lightweight cryptographic algorithm, on an FPGA platform. We focus on the initialization phase of Xoodyak in the authenticated encryption with associated data (AEAD) mode. First, we introduce a new leakage model and perform a leakage assessment. Then, we perform non-profiled and profiled attacks to determine if the observed leakages can be exploited. For a non-profiled attack, we perform a correlation power analysis on all key bits, achieving a success rate of 91.4% with 50 000 traces. Our approach for a profiled attack involves a template attack and a deep learning-based attack. The former achieves a success rate of 99.2%, recovering almost all key bits with 20 000 traces in the attack phase. The latter reaches a guessing entropy of zero after 550 traces and adapts to the leakage model within 50 epochs.</span><br /></p></dd></dl>
 <dl><dt ><code>PUB-2024-35 -</code> <a href="https://link.springer.com/chapter/10.1007/978-3-031-61486-6_12" >Everything All at Once: Deep Learning Side-Channel Analysis Optimization Framework</a>
 </dt><dd>
 <p>Gabriele Serafini, Léo Weissbart, Lejla Batina</p>
 <p><i>Artificial Intelligence in Hardware Security - AIHWS 2024</i><br>
-	<span style="color:#999;"> Deep learning is becoming an increasingly proficient tool for side-channel analysis. While deep learning has been evolving around the tasks of image and speech recognition for decades, it is still lacking maturity for side-channel analysis. One of the challenges to train a good model is the fine-tuning of its hyperparameters. Many methods have been developed for Hyperparameter Optimization, but a few have been applied for deep learning side-channel analysis. We study the use of sampling algorithm and early-stopping mechanism in the hyperparameter optimization search for deep learning side-channel analysis models. We also offer a scalable deep learning framework to extend results obtained for other problems and datasets. Our results show that hyperparameter optimization methods can save time and resources while leading to models that can lead to the best possible output and at the same time are providing more confidence whether to look for a better model.</span><br /></p></dd></dl>
+	<span class="item-description"> Deep learning is becoming an increasingly proficient tool for side-channel analysis. While deep learning has been evolving around the tasks of image and speech recognition for decades, it is still lacking maturity for side-channel analysis. One of the challenges to train a good model is the fine-tuning of its hyperparameters. Many methods have been developed for Hyperparameter Optimization, but a few have been applied for deep learning side-channel analysis. We study the use of sampling algorithm and early-stopping mechanism in the hyperparameter optimization search for deep learning side-channel analysis models. We also offer a scalable deep learning framework to extend results obtained for other problems and datasets. Our results show that hyperparameter optimization methods can save time and resources while leading to models that can lead to the best possible output and at the same time are providing more confidence whether to look for a better model.</span><br /></p></dd></dl>
 <dl><dt ><code>PUB-2312.07783 -</code> <a href="https://arxiv.org/abs/2312.07783" >BarraCUDA: Bringing Electromagnetic Side Channel Into Play to Steal the Weights of Neural Networks from NVIDIA GPUs</a>
 </dt><dd>
 <p>Péter Horváth, Łukasz Chmielewski, Léo Weissbart, Lejla Batina, Yuval Yarom</p>
 <p><i>Arxiv</i><br>
-	<span style="color:#999;"> Over the last decade, applications of neural networks have spread to cover all aspects of life. A large number of companies base their businesses on building products that use neural networks for tasks such as face recognition, machine translation, and autonomous cars. They are being used in safety and security-critical applications like high definition maps and medical wristbands, or in globally used products like Google Translate and ChatGPT. Much of the intellectual property underpinning these products is encoded in the exact configuration of the neural networks. Consequently, protecting these is of utmost priority to businesses. At the same time, many of these products need to operate under a strong threat model, in which the adversary has unfettered physical control of the product.
+	<span class="item-description"> Over the last decade, applications of neural networks have spread to cover all aspects of life. A large number of companies base their businesses on building products that use neural networks for tasks such as face recognition, machine translation, and autonomous cars. They are being used in safety and security-critical applications like high definition maps and medical wristbands, or in globally used products like Google Translate and ChatGPT. Much of the intellectual property underpinning these products is encoded in the exact configuration of the neural networks. Consequently, protecting these is of utmost priority to businesses. At the same time, many of these products need to operate under a strong threat model, in which the adversary has unfettered physical control of the product.
 	Past work has demonstrated that with physical access, attackers can reverse engineer neural networks that run on scalar microcontrollers, like ARM Cortex M3. However, for performance reasons, neural networks are often implemented on highly-parallel general purpose graphics processing units (GPGPUs), and so far, attacks on these have only recovered course-grained information on the structure of the neural network, but failed to retrieve the weights and biases.
 	In this work, we present BarraCUDA, a novel attack on GPGPUs that can completely extract the parameters of neural networks. BarraCUDA uses correlation electromagnetic analysis to recover the weights and biases in the convolutional layers of neural networks. We use BarraCUDA to attack the popular NVIDIA Jetson Nano device, demonstrating successful parameter extraction of neural networks in a highly parallel and noisy environment. </span><br /></p></dd></dl>
 
@@ -104,14 +109,14 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Azade Rezaeezade, Abraham Basurto-Becerra, Léo Weissbart, Guilherme Perin</p>
 <p><i>Artificial Intelligence in Hardware Security - AIHWS 2024</i><br>
-	<span style="color:#999;"> In recent years, deep learning-based side-channel analysis (DLSCA) has become an active research topic within the side-channel analysis community. The well-known challenge of hyperparameter tuning in DLSCA encouraged the community to use methods that reduce the effort required to identify an optimal model. One of the successful methods is ensemble learning. While ensemble methods have demonstrated their effectiveness in DLSCA, particularly with AES-based datasets, their efficacy in analyzing symmetric-key cryptographic primitives with different operational mechanics remains unexplored.
+	<span class="item-description"> In recent years, deep learning-based side-channel analysis (DLSCA) has become an active research topic within the side-channel analysis community. The well-known challenge of hyperparameter tuning in DLSCA encouraged the community to use methods that reduce the effort required to identify an optimal model. One of the successful methods is ensemble learning. While ensemble methods have demonstrated their effectiveness in DLSCA, particularly with AES-based datasets, their efficacy in analyzing symmetric-key cryptographic primitives with different operational mechanics remains unexplored.
 	Ascon was recently announced as the winner of the NIST lightweight cryptography competition. This will lead to broader use of Ascon and a crucial requirement for thorough side-channel analysis of its implementations. With these two considerations in view, we utilize an ensemble of deep neural networks to attack two implementations of Ascon. Using an ensemble of five multilayer perceptrons or convolutional neural networks, we could find the secret key for the Ascon-protected implementation with less than 3 000 traces. To the best of our knowledge, this is the best currently known result. We can also identify the correct key with less than 100 traces for the unprotected implementation of Ascon, which is on par with the state-of-the-art results. </span><br /></p></dd></dl>
 
 <dl><dt ><code>PUB-2023-1598 -</code> <a href="https://eprint.iacr.org/2023/1598" >Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller</a> [<a href="files/2023-1598.pdf">PDF</a>]
 </dt><dd>
 <p>Léo Weissbart and Stjepan Picek</p>
 <p><i>Cryptology ePrint Archive</i><br>
-<span style="color:#999;"> Ascon is a recently standardized suite of symmetric cryptography for authenticated encryption and hashing algorithms designed to be lightweight.
+<span class="item-description"> Ascon is a recently standardized suite of symmetric cryptography for authenticated encryption and hashing algorithms designed to be lightweight.
 	The Ascon scheme has been studied since it was introduced in 2015 for the CAESAR competition, and many efforts have been made to transform this hardware-oriented scheme to work with any embedded device architecture.
 	Ascon is designed with side-channel resistance in mind and can also be protected with countermeasures against side-channel analysis.
 	Up to now, the effort of side-channel analysis is mainly put on hardware implementations, with only a few studies being published on the real-world side-channel security of software implementations.
@@ -126,7 +131,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Lichao Wu, Léo Weissbart, Marina Krcek, Huimin Li, Guilherme Perin, Lejla Batina, Stjepan Picek</p>
 <p><i>IEEE Transactions on Information Forensics and Security - IEEE TIFS 2023</i><br>
-<span style="color:#999;">The efficiency of the profiling side-channel analysis can be significantly improved with machine learning techniques. Although 
+<span class="item-description">The efficiency of the profiling side-channel analysis can be significantly improved with machine learning techniques. Although 
 	powerful, a fundamental machine learning limitation of being data-hungry received little attention in the side-channel community. In practice, the maximum
 	number of leakage traces that evaluators/attackers can obtain is constrained by the scheme requirements or the limited accessibility of the target. 
 	Even worse, various countermeasures in modern devices increase the conditions on the profiling size to break the target. This work demonstrates a 
@@ -140,7 +145,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Łukasz Chmielewski and Léo Weissbart</p>
 <p><i>Artificial Intelligence in Hardware Security - AIHWS 2021</i><br>
-<span style="color:#999;">In recent years machine learning has become increasingly mainstream across industries. Additionally, Graphical Processing Unit (GPU)
+<span class="item-description">In recent years machine learning has become increasingly mainstream across industries. Additionally, Graphical Processing Unit (GPU)
 	accelerators are widely deployed in various neural network (NN) applications, including image recognition for autonomous vehicles and natural language 
 	processing, among others. Since training a powerful network requires expensive data collection and computing power, its design and parameters are often 
 	considered a secret intellectual property of their manufacturers. However, hardware accelerators can leak crucial information about the secret neural 
@@ -158,7 +163,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Zhuoran Liu, Niels Samwel, Léo Weissbart, Zhengyu Zhao, Dirk Lauret, Lejla Batina and Martha Larson</p>
 <p><i>Network and Distributed System Security Symposium - NDSS 2021</i><br>
-<span style="color:#999;">    We introduce screen gleaning, a TEMPEST attack in which the screen of a mobile device is read without a visual line of sight, 
+<span class="item-description">    We introduce screen gleaning, a TEMPEST attack in which the screen of a mobile device is read without a visual line of sight, 
 	revealing sensitive information displayed on the phone screen. The screen gleaning attack uses an antenna and a software-defined radio (SDR) to pick up 
 	the electromagnetic signal that the device sends to the screen to display, e.g., a message with a security code. This special equipment makes it possible 
 	to recreate the signal as a gray-scale image, which we refer to as an emage. Here, we show that it can be used to read a security code. The screen gleaning 
@@ -173,7 +178,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Léo Weissbart, Łukasz Chmielewski, Stjepan Picek and Lejla Batina </p>
 <p><i>Journal of Hardware and Systems Security - HASS 2020</i><br>
-<span style="color:#999;">Profiling attacks, especially those based on machine learning, proved to be very successful techniques in recent years when considering
+<span class="item-description">Profiling attacks, especially those based on machine learning, proved to be very successful techniques in recent years when considering
 	the side-channel analysis of symmetric-key crypto implementations. At the same time, the results for implementations of asymmetric-key cryptosystems are very
 	sparse. This paper considers several machine learning techniques to mount side-channel attacks on two implementations of scalar multiplication on the elliptic
 	curve Curve25519. The first implementation follows the baseline implementation with complete formulae as used for EdDSA in WolfSSl, where we exploit power 
@@ -188,7 +193,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Léo Weissbart</p>
 <p><i>Artificial Intelligence in Hardware Security - AIHWS 2020</i><br>
-<span style="color:#999;">In profiling side-channel analysis, machine learning-based attacks nowadays offer the most powerful performance. 
+<span class="item-description">In profiling side-channel analysis, machine learning-based attacks nowadays offer the most powerful performance. 
 	This holds especially for techniques stemming from the neural network family: multilayer perceptron and convolutional neural networks. 
 	Convolutional neural networks are often favored as state-of-the-art results suggest better performance, especially in scenarios where targets 
 	are protected with countermeasures. Multilayer perceptron receives much less attention and researchers seem less interested in this technique, 
@@ -204,7 +209,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Yoshinori Uetake,  Keiji Yoshimoto, Yuta Kodera, Léo Weissbart, Takuya Kusaka, Yasuyuki Nogami</p>
 <p><i>Seventh International Symposium on Computing and Networking - CANDAR 2019</i><br>
-<span style="color:#999;"> Among the increasing evolution of IoT devices, practical applications need reliable secure protocols to communicate with each other. 
+<span class="item-description"> Among the increasing evolution of IoT devices, practical applications need reliable secure protocols to communicate with each other. 
 	A major issue for modern cryptosystems is an implementation of secure and trustworthy mechanisms to rely on. A side-channel attack against these cryptosystems 
 	may overturn the guarantee of security against conventional cyber-attacks. Elliptic curve cryptography is public-key cryptography based on elliptic curves, and 
 	one of the well-known curves is Curve25519 which is used for TLS protocols as a recommended curve. This curve is mainly implemented on limited resource devices 
@@ -216,7 +221,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Léo Weissbart, Stjepan Picek and Lejla Batina</p>
 <p><i>Security, Privacy and Applied Cryptography Engineering - SPACE 2019</i><br>
-<span style="color:#999;"> Profiling attacks, especially those based on machine learning proved as very successful techniques in recent years when 
+<span class="item-description"> Profiling attacks, especially those based on machine learning proved as very successful techniques in recent years when 
 	considering side-channel analysis of block ciphers implementations. At the same time, the results for implementations public-key cryptosystems 
 	are very sparse. In this paper, we consider several machine learning techniques in order to mount a power analysis attack on EdDSA using the curve 
 	Curve25519 as implemented in WolfSSL. The results show all considered techniques to be viable and powerful options. The results with convolutional 
@@ -229,18 +234,18 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </dt><dd>
 <p>Yoshinori Uetake, Akihiro Sanada, Takuya Kusaka, Yasuyuki Nogami, Léo Weissbart and Sylvain Duquesne</p>
 <p><i>The International Symposium on Information Theory and Its Applications - ISITA 2018</i><br>
-<span style="color:#999;"> With the matter of secure communication between devices, and especially for IoT devices, more and more applications need 
+<span class="item-description"> With the matter of secure communication between devices, and especially for IoT devices, more and more applications need 
 	trustful protocols to communicate using public key cryptography. Elliptic curve cryptography is nowadays a very secure and efficient public key 
 	cryptography method. One of the most recent and secure curve is Curve25519 and one of its failure is attack on low-order elements during a 
 	Diffie-Hellman key exchange. This document demonstrates that an attack using an order 4 point is possible on an embedded system with a simple 
 	power analysis, pointing out every IoT using Curve255119 as a cryptographic method, a potential target to side-channel attacks. </span><br /></p></dd></dl>
 
 <H2 id="SEE-ALSO">SEE ALSO</H2>
-<dl><dt ><code>2019 - June.  Summer School on real-world crypto and privacy - Šibenik</code><dd><p><span style="color:#999;"><a href="https://summerschool-croatia.cs.ru.nl/2019/">Summer school</a> jointly organized by the Digital Security
+<dl><dt ><code>2019 - June.  Summer School on real-world crypto and privacy - Šibenik</code><dd><p><span class="item-description"><a href="https://summerschool-croatia.cs.ru.nl/2019/">Summer school</a> jointly organized by the Digital Security
 	(DiS) group, Radboud University (The Netherlands), ETH Zurich Information Security and Privacy Center (Switzerland) and Faculty of Electrical Engineering
 	and Computing, University of Zagreb (Croatia). </span></p></dd></dt></dl>
 
-<dl><dt ><code>2022 - June.  Summer School on real-world crypto and privacy - Šibenik</code><dd><p><span style="color:#999;"><a href="https://summerschool-croatia.cs.ru.nl/2022/">Summer school</a> jointly organized by the Digital Security
+<dl><dt ><code>2022 - June.  Summer School on real-world crypto and privacy - Šibenik</code><dd><p><span class="item-description"><a href="https://summerschool-croatia.cs.ru.nl/2022/">Summer school</a> jointly organized by the Digital Security
 (DiS) group, Radboud University (The Netherlands), ETH Zurich Information Security and Privacy Center (Switzerland) and Faculty of Electrical Engineering
 	and Computing, University of Zagreb (Croatia). </span></p></dd></dt></dl>
 
@@ -248,7 +253,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 
     			<ol class='man-decor man-foot man foot'>
     				<li class='tl'></li>
-    				<li class='tc'> Mar 2025</li>
+    				<li class='tc'> Jul 2025</li>
     				<li class='tr'>Léo Weissbart</li>
     			</ol>
     		</div>
