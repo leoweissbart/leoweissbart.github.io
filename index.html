@@ -43,7 +43,7 @@
 <p>
 <code>Léo Weissbart</code> is a PhD student at <a href="https://www.tudelft.nl/en/eemcs/the-faculty/departments/intelligent-systems/">EEMCS INSY</a> of TU Delft in the <a href="https://www.aisylab.com/">AISY Lab</a> and the <a href="http://www.ru.nl/ds/" >Digital Security group</a> of the Radboud University in the <a href="https://cescalab.cs.ru.nl/">Cesca Lab</a>,
 working in <i>the area of physical attacks and machine learning</i> under the
-supervision of <a href="https://www.tudelft.nl/en/eemcs/current/humans-of-eemcs/stjepan-picek/" >Stepjan Picek</a> and <a href="http://www.cs.ru.nl/~lejla/" >Lejla Batina</a>. 
+supervision of <a href="https://www.tudelft.nl/en/eemcs/current/humans-of-eemcs/stjepan-picek/" >Stjepan Picek</a> and <a href="http://www.cs.ru.nl/~lejla/" >Lejla Batina</a>. 
 Before that, he was an engineering student at the
 <a href="http://esisar.grenoble-inp.fr" >Grenoble INP-Esisar</a> (National Institute of advanced systems and networks, France).
 </p>
@@ -77,6 +77,18 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 </p>
 
 <H2 id="PUBLICATIONS">PUBLICATIONS</H2>
+<dl><dt ><code>PUB-2025-86 -</code> <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218126625430042" >A Comprehensive Evaluation of Side-Channel Resistance of Xoodyak Hardware Implementations</a>
+</dt><dd>
+<p>Parisa Amiri Eliasi, Silvia Mella, Léo Weissbart, Lejla Batina, Stjepan Picek</p>
+<p><i>Journal of Circuits, Systems and Computers, 2025</i><br>
+	<span class="item-description">In this paper, we conduct an in-depth power side-channel analysis of Xoodyak, a lightweight cryptographic algorithm implemented on an FPGA platform. Our analysis focuses on the initialization phase of Xoodyak in its authenticated encryption with associated data mode. We introduce a new leakage model and perform an initial leakage assessment to identify potential vulnerabilities. Subsequently, we carry out both non-profiled and profiled attacks to determine how exploitable the observed leakages are.
+	We use correlation power analysis for the non-profiled analysis, applying it across all key bits. This approach yields a success rate of 91.4% with 50,000 traces. In our profiled attack phase, we deploy both a template attack and a deep learning-based attack. The template attack achieves a success rate of 99.2%, recovering almost all key bits using 20,000 traces. Meanwhile, the deep learning approach reaches zero guessing entropy within 550 traces and successfully adapts to the leakage model within 50 epochs.
+	To enhance the resilience of Xoodyak against side-channel attacks, we develop a configurable implementation based on domain-oriented masking (DOM) scheme. Our d-th order masked implementation employs d+1 shares, requiring d(d+1)/2 units of fresh randomness per round. We then assess the resource requirements of these masked implementations on both ASIC and FPGA platforms, up to order 5. As a practical demonstration, we program the main Spartan-6 FPGA on the Sakura-G evaluation board with both the unprotected and the first-order domain-oriented protected implementations. A test vector leakage assessment based on Welch's t-test is then conducted to confirm the improved resistance of this Xoodyak implementation protected against first-order power analysis attacks.</span><br /></p></dd></dl>
+<dl><dt ><code>PUB-2025-978 -</code> <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/horvath" >BarraCUDA: Bringing Electromagnetic Side Channel Into Play to Steal the Weights of Neural Networks from NVIDIA GPUs</a>
+</dt><dd>
+<p>Péter Horváth, Łukasz Chmielewski, Léo Weissbart, Lejla Batina, Yuval Yarom</p>
+<p><i>34th USENIX Security Symposium (USENIX Security 25)</i><br>
+	<span class="item-description"> Over the last decade, applications of neural networks have spread to every aspect of our lives. A large number of companies base their businesses on building products that use neural networks for tasks such as face recognition, machine translation, and self-driving cars. Much of the intellectual property underpinning these products is encoded in the exact parameters of the neural networks. Consequently, protecting these is of utmost priority to businesses. At the same time, many of these products need to operate under a strong threat model, in which the adversary has unfettered physical control of the product. In this work, we present BarraCUDA, a novel attack on general-purpose Graphics Processing Units (GPUs) that can extract parameters of neural networks running on the popular Nvidia Jetson devices. BarraCUDA relies on the observation that the convolution operation, used during inference, must be computed as a sequence of partial sums, each leaking one or a few parameters. Using correlation electromagnetic analysis with these partial sums, BarraCUDA can recover parameters of real-world convolutional neural networks. </span><br /></p></dd></dl>
 <dl><dt ><code>PUB-2024-974 -</code> <a href="https://link.springer.com/chapter/10.1007/978-3-031-82841-6_12" >Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis</a>
 </dt><dd>
 <p>Trevor Yap, Shivam Bhasin, Léo Weissbart</p>
@@ -97,14 +109,6 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 <p>Gabriele Serafini, Léo Weissbart, Lejla Batina</p>
 <p><i>Artificial Intelligence in Hardware Security - AIHWS 2024</i><br>
 	<span class="item-description"> Deep learning is becoming an increasingly proficient tool for side-channel analysis. While deep learning has been evolving around the tasks of image and speech recognition for decades, it is still lacking maturity for side-channel analysis. One of the challenges to train a good model is the fine-tuning of its hyperparameters. Many methods have been developed for Hyperparameter Optimization, but a few have been applied for deep learning side-channel analysis. We study the use of sampling algorithm and early-stopping mechanism in the hyperparameter optimization search for deep learning side-channel analysis models. We also offer a scalable deep learning framework to extend results obtained for other problems and datasets. Our results show that hyperparameter optimization methods can save time and resources while leading to models that can lead to the best possible output and at the same time are providing more confidence whether to look for a better model.</span><br /></p></dd></dl>
-<dl><dt ><code>PUB-2312.07783 -</code> <a href="https://arxiv.org/abs/2312.07783" >BarraCUDA: Bringing Electromagnetic Side Channel Into Play to Steal the Weights of Neural Networks from NVIDIA GPUs</a>
-</dt><dd>
-<p>Péter Horváth, Łukasz Chmielewski, Léo Weissbart, Lejla Batina, Yuval Yarom</p>
-<p><i>Arxiv</i><br>
-	<span class="item-description"> Over the last decade, applications of neural networks have spread to cover all aspects of life. A large number of companies base their businesses on building products that use neural networks for tasks such as face recognition, machine translation, and autonomous cars. They are being used in safety and security-critical applications like high definition maps and medical wristbands, or in globally used products like Google Translate and ChatGPT. Much of the intellectual property underpinning these products is encoded in the exact configuration of the neural networks. Consequently, protecting these is of utmost priority to businesses. At the same time, many of these products need to operate under a strong threat model, in which the adversary has unfettered physical control of the product.
-	Past work has demonstrated that with physical access, attackers can reverse engineer neural networks that run on scalar microcontrollers, like ARM Cortex M3. However, for performance reasons, neural networks are often implemented on highly-parallel general purpose graphics processing units (GPGPUs), and so far, attacks on these have only recovered course-grained information on the structure of the neural network, but failed to retrieve the weights and biases.
-	In this work, we present BarraCUDA, a novel attack on GPGPUs that can completely extract the parameters of neural networks. BarraCUDA uses correlation electromagnetic analysis to recover the weights and biases in the convolutional layers of neural networks. We use BarraCUDA to attack the popular NVIDIA Jetson Nano device, demonstrating successful parameter extraction of neural networks in a highly parallel and noisy environment. </span><br /></p></dd></dl>
-
 <dl><dt ><code>PUB-2023-1922 -</code> <a href="https://eprint.iacr.org/2023/1922" >One for All, All for Ascon: Ensemble-based Deep Learning Side-channel Analysis</a>
 </dt><dd>
 <p>Azade Rezaeezade, Abraham Basurto-Becerra, Léo Weissbart, Guilherme Perin</p>
@@ -253,7 +257,7 @@ Hardware Security,  Deep Learning, Implementation of Cryptography, Physical Atta
 
     			<ol class='man-decor man-foot man foot'>
     				<li class='tl'></li>
-    				<li class='tc'> Jul 2025</li>
+    				<li class='tc'> Sept 2025</li>
     				<li class='tr'>Léo Weissbart</li>
     			</ol>
     		</div>
